@@ -8,7 +8,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.image("assets/logo.png", caption="Resource Planning Tool", use_container_width=True)
+#st.image("assets/logo.png", caption="Resource Planning Tool", use_container_width=True)
+st.sidebar.image("assets/logo.png", caption="Resource Planning Tool", use_column_width=True)
 
 
 # Add an introductory message
